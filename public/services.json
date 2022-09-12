@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Cardiology",
+    "icon": "fa-solid fa-heart-pulse",
+    "description": "Seduahag perspiciati under omnised atused error.",
+    "explore": "Explore Now"
+  },
+  {
+    "id": 2,
+    "name": "Monthly Check Up",
+    "icon": "fa-solid fa-prescription-bottle-medical",
+    "description": "Seduahag perspiciati under omnised atused error.",
+    "explore": "Explore Now"
+  },
+  {
+    "id": 3,
+    "name": "Cardiology",
+    "icon": "fa-solid fa-tooth",
+    "description": "Seduahag perspiciati under omnised atused error.",
+    "explore": "Explore Now"
+  },
+  {
+    "id": 4,
+    "name": "Opthalmology",
+    "icon": "fa-solid fa-briefcase-medical",
+    "description": "Seduahag perspiciati under omnised atused error.",
+    "explore": "Explore Now"
+  }
+]
