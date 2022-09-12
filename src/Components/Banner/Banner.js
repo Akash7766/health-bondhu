@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "./Banner.css";
 import bannerImage from "../../assets/banner-man.png";
+import doctors from "../../assets/meet-doctors.png";
+import ractangle from "../../assets/banner-doctor-ractangle.png";
 
 const Banner = () => {
   const [stat, setStat] = useState([]);
@@ -15,8 +18,8 @@ const Banner = () => {
       <div className="banner-left">
         <div className="text">
           <h1 className="text-[65px] text-bold leading-[72px] mb-4">
-            Your <span className="text-[#2D89FF]">Health</span> Is Our <br />{" "}
-            Top <span className="text-[#642DFF]">Priority</span>
+            Your <span className="text-[#2D89FF]">Health</span> Is Our Top{" "}
+            <span className="text-[#642DFF]">Priority</span>
           </h1>
           <p className=" mb-8 text-[#575757]">
             There are many variations of passages of lpsum <br /> available, but
@@ -45,6 +48,14 @@ const Banner = () => {
           <p className=" text-xs text-white">
             <i class="fa-regular fa-circle-check"></i> Regular Checkup
           </p>
+        </div>
+        <div className="bg-[#fff] w-60 h-auto rounded absolute right-0 top-[70%] p-4">
+          <p className=" text-xs text-[#1E1E1E] mb-4">Meet Our Doctors</p>
+          <Link to="/">
+            <img className=" image-full" src={doctors} alt="" />
+          </Link>
+          <img className=" image-full my-2" src={ractangle} alt="" />
+          <img className=" image-full" src={ractangle} alt="" />
         </div>
       </div>
     </div>
