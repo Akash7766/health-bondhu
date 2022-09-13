@@ -63,7 +63,7 @@ const Footer = () => {
               <h5 className="sm:text-left text-center">Quick Links</h5>
             </div>
             <div className="flex sm:justify-between justify-center">
-              <div className="leading-8">
+              <div className="leading-8 sm:mr-0 mr-10 ">
                 <div>
                   {" "}
                   <Link to="/">About Us</Link>
