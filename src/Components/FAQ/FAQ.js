@@ -17,7 +17,7 @@ const FAQ = () => {
             </div>
             <div className="collapse-content">
               <p>
-                tabIndex={0} attribute is necessary to make the div focusable
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi in{" "}
               </p>
             </div>
           </div>
@@ -28,9 +28,7 @@ const FAQ = () => {
               Will I always see my own doctor?{" "}
             </div>
             <div className="collapse-content">
-              <p>
-                tabIndex={0} attribute is necessary to make the div focusable
-              </p>
+              <p>sint voluptatem. Doloribus, explicabo delectus a, aliquid </p>
             </div>
           </div>
         </div>
@@ -41,7 +39,7 @@ const FAQ = () => {
             </div>
             <div className="collapse-content">
               <p>
-                tabIndex={0} attribute is necessary to make the div focusable
+                blanditiis eaque sit molestiae quod ad at voluptates fugit,{" "}
               </p>
             </div>
           </div>
@@ -52,9 +50,7 @@ const FAQ = () => {
               What is evidence based medicine?{" "}
             </div>
             <div className="collapse-content">
-              <p>
-                tabIndex={0} attribute is necessary to make the div focusable
-              </p>
+              <p>perferendis fugiat ea consectetur. </p>
             </div>
           </div>
         </div>
@@ -65,7 +61,10 @@ const FAQ = () => {
             </div>
             <div className="collapse-content">
               <p>
-                tabIndex={0} attribute is necessary to make the div focusable
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi in
+                sint voluptatem. Doloribus, explicabo delectus a, aliquid
+                blanditiis eaque sit molestiae quod ad at voluptates fugit,
+                perferendis fugiat ea consectetur.{" "}
               </p>
             </div>
           </div>
