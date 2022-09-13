@@ -6,18 +6,18 @@ import feature3 from "../../assets/feature-3.png";
 import feature4 from "../../assets/feature-4.png";
 const Feature = () => {
   return (
-    <div className="py-7 flex justify-center items-center">
-      <div className="experience-right flex justify-center items-center w-5/12">
+    <div className="py-7 flex justify-center items-center md:flex-row flex-col">
+      <div className="experience-right flex justify-center items-center md:w-5/12">
         <img src={featureImg} alt="" />
       </div>
-      <div className="experience-left w-7/12">
+      <div className="experience-left md:w-7/12">
         <div className="mb-10">
           <h5 className=" text-xs text-[#642DFF]">Our Hospital Feature </h5>
           <h2 className=" text-3xl font-bold my-3">
             Make An Appointment Easy And Fast Services{" "}
           </h2>
         </div>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid sm:grid-cols-2 gap-4">
           <div className="p-3 bg-white rounded">
             <div className="flex justify-between items-center mb-2">
               <h4>24 Hours Doctor Support</h4>
@@ -32,7 +32,7 @@ const Feature = () => {
           </div>
           <div className="p-3 bg-white rounded">
             <div className="flex justify-between items-center mb-2">
-              <h4>24 Hours Doctor Support</h4>
+              <h4>Exclusive Supports</h4>
               <img src={feature2} alt="" />
             </div>
             <div>
@@ -44,7 +44,7 @@ const Feature = () => {
           </div>
           <div className="p-3 bg-white rounded">
             <div className="flex justify-between items-center mb-2">
-              <h4>24 Hours Doctor Support</h4>
+              <h4>Friendly Environment </h4>
               <img src={feature3} alt="" />
             </div>
             <div>
@@ -56,7 +56,7 @@ const Feature = () => {
           </div>
           <div className="p-3 bg-white rounded">
             <div className="flex justify-between items-center mb-2">
-              <h4>24 Hours Doctor Support</h4>
+              <h4>24 Hours Nurse Support</h4>
               <img src={feature4} alt="" />
             </div>
             <div>

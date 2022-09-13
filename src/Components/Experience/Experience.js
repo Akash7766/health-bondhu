@@ -3,8 +3,8 @@ import experienceImg from "../../assets/experience-doctor.png";
 
 const Experience = () => {
   return (
-    <div className="py-7 flex">
-      <div className="experience-left w-7/12">
+    <div className="py-7 flex md:flex-row flex-col">
+      <div className="experience-left md:w-7/12">
         <h5 className=" text-xs text-[#642DFF]">16+ Years Experiences </h5>
         <h2 className=" text-3xl font-bold my-3">
           We Are Always ensure Best Medical Treatment For Your Health
@@ -20,7 +20,7 @@ const Experience = () => {
           look lik
         </p>
       </div>
-      <div className="experience-right flex justify-center items-center w-5/12">
+      <div className="experience-right flex justify-center items-center hidden md:block md:w-5/12">
         <img src={experienceImg} alt="" />
       </div>
     </div>

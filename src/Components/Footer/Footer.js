@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="bg-[#E5EEF5] py-10 ">
-      <div className="container mx-auto mb-7 flex gap-14">
+      <div className="container mx-auto mb-7 flex flex-col lg:flex-row  gap-14">
         <div className="lg:w-1/3">
           <div>
             <img src={logo} alt="" />
@@ -57,12 +57,12 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="grid grid-cols-2 lg:w-2/3 gap-10">
+        <div className="grid sm:grid-cols-2 lg:w-2/3 gap-10">
           <div>
             <div className="text-[#642DFF] text-md mb-3">
-              <h5>Quick Links</h5>
+              <h5 className="sm:text-left text-center">Quick Links</h5>
             </div>
-            <div className="flex justify-between">
+            <div className="flex sm:justify-between justify-center">
               <div className="leading-8">
                 <div>
                   {" "}

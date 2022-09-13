@@ -29,8 +29,8 @@ const Slider = () => {
       >
         <SwiperSlide>
           <div className="w-[80%] flex justify-center items-center rounded-3xl  bg-white overflow-hidden">
-            <div className="p-6 flex gap-14">
-              <div className="w-2/3 relative">
+            <div className="p-6 flex gap-14 lg:flex-row flex-col">
+              <div className="lg:w-2/3 relative">
                 <h3>David Jeams</h3>
                 <h3 className="mt-3 mb-5">Pratient</h3>
                 <p className="text-[#575757]">
@@ -40,15 +40,16 @@ const Slider = () => {
                   and scrambled it is a long established fact that a reader will
                   be distracted by the readable content{" "}
                 </p>
-                <div className=" absolute">
+                <div className="hidden lg:block absolute">
                   <img src={sliderPlus} alt="" />
                 </div>
               </div>
-              <div className="w-1/3 relative">
-                <div>
+              <div className="lg:w-1/3 relative sm:block hidden">
+                <div className="z-20 w-full">
+                  {" "}
                   <img src={sliderImg} alt="" />
                 </div>
-                <div className=" absolute top-[-20px] right-[-20px]">
+                <div className="hidden lg:block absolute top-[-40px] right-[-40px] z-0">
                   <img src={sliderDot} alt="" />
                 </div>
               </div>
@@ -57,8 +58,8 @@ const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="w-[80%] flex justify-center items-center rounded-3xl  bg-white overflow-hidden">
-            <div className="p-6 flex gap-14">
-              <div className="w-2/3 relative">
+            <div className="p-6 flex gap-14 lg:flex-row flex-col">
+              <div className="lg:w-2/3 relative">
                 <h3>David Jeams</h3>
                 <h3 className="mt-3 mb-5">Pratient</h3>
                 <p className="text-[#575757]">
@@ -68,16 +69,16 @@ const Slider = () => {
                   and scrambled it is a long established fact that a reader will
                   be distracted by the readable content{" "}
                 </p>
-                <div className=" absolute">
+                <div className="hidden lg:block absolute">
                   <img src={sliderPlus} alt="" />
                 </div>
               </div>
-              <div className="w-1/3 relative">
-                <div className="z-20">
+              <div className="lg:w-1/3 relative sm:block hidden">
+                <div className="z-20 w-full">
                   {" "}
                   <img src={doctor} alt="" />
                 </div>
-                <div className=" absolute top-[-40px] right-[-40px] z-0">
+                <div className="hidden lg:block absolute top-[-40px] right-[-40px] z-0">
                   <img src={sliderDot} alt="" />
                 </div>
               </div>

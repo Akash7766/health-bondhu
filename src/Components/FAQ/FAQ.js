@@ -4,13 +4,13 @@ import FaqIcon from "../../assets/Faq-icon.png";
 
 const FAQ = () => {
   return (
-    <div className="py-7 flex">
-      <div className="experience-left w-7/12">
+    <div className="py-7 flex md:flex-row flex-col">
+      <div className="experience-left md:w-7/12">
         <div>
           <h5 className=" text-xs text-[#642DFF]">FAQ Questions </h5>
           <h2 className=" text-3xl font-bold my-3">Get Your General Answer </h2>
         </div>
-        <div className="w-[500px] md:w-96">
+        <div className="lg::w-[500px] md:w-96">
           <div tabIndex={0} className="collapse collapse-plus ">
             <div className="collapse-title text-xl font-medium">
               Get Your General Answer
@@ -22,7 +22,7 @@ const FAQ = () => {
             </div>
           </div>
         </div>
-        <div className="w-[500px] md:w-96">
+        <div className="lg::w-[500px] md:w-96">
           <div tabIndex={0} className="collapse collapse-plus ">
             <div className="collapse-title text-xl font-medium">
               Will I always see my own doctor?{" "}
@@ -32,7 +32,7 @@ const FAQ = () => {
             </div>
           </div>
         </div>
-        <div className="w-[500px] md:w-96">
+        <div className="lg::w-[500px] md:w-96">
           <div tabIndex={0} className="collapse collapse-plus ">
             <div className="collapse-title text-xl font-medium">
               What is one Medical’s care?{" "}
@@ -44,7 +44,7 @@ const FAQ = () => {
             </div>
           </div>
         </div>
-        <div className=" lg:w-[500px] md:w-96">
+        <div className="lg::w-[500px] md:w-96">
           <div tabIndex={0} className="collapse collapse-plus ">
             <div className="collapse-title text-xl font-medium">
               What is evidence based medicine?{" "}
@@ -54,7 +54,7 @@ const FAQ = () => {
             </div>
           </div>
         </div>
-        <div className="w-[500px] md:w-96">
+        <div className="lg::w-[500px] md:w-96">
           <div tabIndex={0} className="collapse collapse-plus ">
             <div className="collapse-title text-xl font-medium">
               What is an academic medical center?{" "}
@@ -70,7 +70,7 @@ const FAQ = () => {
           </div>
         </div>
       </div>
-      <div className="experience-right flex justify-center items-center w-5/12 relative">
+      <div className="experience-right flex justify-center items-center md:w-5/12 relative">
         <img src={FaqImg} alt="" />
         <div className="bg-white w-52 h-14 flex justify-center items-center rounded-md absolute left-0 top-[65%] p-3">
           <div className="flex justify-center items-center">

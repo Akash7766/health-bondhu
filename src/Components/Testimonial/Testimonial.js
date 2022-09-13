@@ -8,7 +8,7 @@ const Testimonial = () => {
         <h5 className="text-[#642DFF] mb-3">Testimonial</h5>
         <h2 className="text-3xl mb-10">What they say?</h2>
       </div>
-      <div className="w-[90%] mx-auto">
+      <div className="lg:w-[90%] mx-auto">
         <Slider />
       </div>
     </div>
