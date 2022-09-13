@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Cardiology",
+    "color": "#000",
     "icon": "fa-solid fa-heart-pulse",
     "description": "Seduahag perspiciati under omnised atused error.",
     "explore": "Explore Now"
@@ -9,6 +10,7 @@
   {
     "id": 2,
     "name": "Monthly Check Up",
+    "color": "#000",
     "icon": "fa-solid fa-prescription-bottle-medical",
     "description": "Seduahag perspiciati under omnised atused error.",
     "explore": "Explore Now"
@@ -16,6 +18,7 @@
   {
     "id": 3,
     "name": "Cardiology",
+    "color": "#2D89FF",
     "icon": "fa-solid fa-tooth",
     "description": "Seduahag perspiciati under omnised atused error.",
     "explore": "Explore Now"
@@ -23,6 +26,7 @@
   {
     "id": 4,
     "name": "Opthalmology",
+    "color": "#000",
     "icon": "fa-solid fa-briefcase-medical",
     "description": "Seduahag perspiciati under omnised atused error.",
     "explore": "Explore Now"
