@@ -10,7 +10,7 @@ const FAQ = () => {
           <h5 className=" text-xs text-[#642DFF]">FAQ Questions </h5>
           <h2 className=" text-3xl font-bold my-3">Get Your General Answer </h2>
         </div>
-        <div className="w-[500px]">
+        <div className="w-[500px] md:w-96">
           <div tabIndex={0} className="collapse collapse-plus ">
             <div className="collapse-title text-xl font-medium">
               Get Your General Answer
@@ -22,7 +22,7 @@ const FAQ = () => {
             </div>
           </div>
         </div>
-        <div className="w-[500px]">
+        <div className="w-[500px] md:w-96">
           <div tabIndex={0} className="collapse collapse-plus ">
             <div className="collapse-title text-xl font-medium">
               Will I always see my own doctor?{" "}
@@ -32,7 +32,7 @@ const FAQ = () => {
             </div>
           </div>
         </div>
-        <div className="w-[500px]">
+        <div className="w-[500px] md:w-96">
           <div tabIndex={0} className="collapse collapse-plus ">
             <div className="collapse-title text-xl font-medium">
               What is one Medical’s care?{" "}
@@ -44,7 +44,7 @@ const FAQ = () => {
             </div>
           </div>
         </div>
-        <div className="w-[500px]">
+        <div className=" lg:w-[500px] md:w-96">
           <div tabIndex={0} className="collapse collapse-plus ">
             <div className="collapse-title text-xl font-medium">
               What is evidence based medicine?{" "}
@@ -54,7 +54,7 @@ const FAQ = () => {
             </div>
           </div>
         </div>
-        <div className="w-[500px]">
+        <div className="w-[500px] md:w-96">
           <div tabIndex={0} className="collapse collapse-plus ">
             <div className="collapse-title text-xl font-medium">
               What is an academic medical center?{" "}

@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div className="bg-[#E5EEF5] py-10 ">
       <div className="container mx-auto mb-7 flex gap-14">
-        <div className="w-1/3">
+        <div className="lg:w-1/3">
           <div>
             <img src={logo} alt="" />
             <p className="mt-3 mb-7">
@@ -57,7 +57,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="grid grid-cols-2 w-2/3 gap-10">
+        <div className="grid grid-cols-2 lg:w-2/3 gap-10">
           <div>
             <div className="text-[#642DFF] text-md mb-3">
               <h5>Quick Links</h5>

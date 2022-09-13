@@ -17,7 +17,7 @@ const Banner = () => {
     <div className="grid grid-cols-2 py-14">
       <div className="banner-left">
         <div className="text">
-          <h1 className="text-[65px] text-bold leading-[72px] mb-4">
+          <h1 className="text-[45px] text-bold leading-[72px] mb-4">
             Your <span className="text-[#2D89FF]">Health</span> Is Our Top{" "}
             <span className="text-[#642DFF]">Priority</span>
           </h1>
@@ -49,7 +49,7 @@ const Banner = () => {
             <i class="fa-regular fa-circle-check"></i> Regular Checkup
           </p>
         </div>
-        <div className="bg-[#fff] w-60 h-auto rounded absolute right-0 top-[70%] p-4">
+        <div className="bg-[#fff] md:w-52 lg:w-60 h-auto rounded absolute right-0 top-[70%] p-4">
           <p className=" text-xs text-[#1E1E1E] mb-4">Meet Our Doctors</p>
           <Link to="/">
             <img className=" image-full" src={doctors} alt="" />

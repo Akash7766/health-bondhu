@@ -6,7 +6,7 @@ import feature3 from "../../assets/feature-3.png";
 import feature4 from "../../assets/feature-4.png";
 const Feature = () => {
   return (
-    <div className="py-7 flex">
+    <div className="py-7 flex justify-center items-center">
       <div className="experience-right flex justify-center items-center w-5/12">
         <img src={featureImg} alt="" />
       </div>

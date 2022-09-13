@@ -6,6 +6,7 @@ import Feature from "./Components/Feature/Feature";
 import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 import Services from "./Components/Services/Services";
+import Testimonial from "./Components/Testimonial/Testimonial";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Experience />
         <Feature />
         <FAQ />
+        <Testimonial />
       </div>
       <Footer />
     </div>

@@ -17,7 +17,7 @@ const Services = () => {
           Services For Your Health
         </h2>
       </div>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
         {services.map((service) => (
           <ServiceCard service={service} />
         ))}
